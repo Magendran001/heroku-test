@@ -15,7 +15,6 @@
 #customer-section {
   width: 75%;
   margin: auto;
-  border: 1px solid red;
 }
 
 .customer-section-grid a {
@@ -135,7 +134,6 @@
   }
   #customer-section h4 {
     line-height: 20px;
-    border: 1px solid red;
   }
   #customer-section h4 + input {
     margin: 10px 0px;
@@ -147,13 +145,11 @@
     display: inline-block;
   }
   #customer-section #download-the-app-images {
-    border: 1px solid red;
     width: 90%;
 
     height: 50px;
   }
   #customer-section #download-the-app-images img {
-    border: 1px solid red;
     width: 100%;
     height: 40px;
   }
@@ -166,6 +162,8 @@
   }
   #footer-last-section-para {
     display: none;
+  }
+  #customer-section {
   }
 }
 
@@ -189,7 +187,7 @@ h4 {
   line-height: 20px;
 }
 #customer-section hr {
-  /* border: 1px solid red;
+  /* 
     background-color: blue; */
   margin: 4% 0;
 }
