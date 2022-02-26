@@ -1,6 +1,5 @@
 function footerpart() {
-
-    return `
+  return `
     <div id="customer-section">
 
         <!-- customer section start -->
@@ -11,7 +10,7 @@ function footerpart() {
 
             <!-- customer-section-grid start -->
 
-            <div>
+            <div >
                 <h4>Customer service</h4>
                 <p><a href="">Contact us</a></p>
                 <p><a href="">Track Order</a></p>
@@ -46,7 +45,7 @@ function footerpart() {
                 <h4>Download the app</h4>
 
                 <div id="download-the-app-images">
-                    <div>
+                    <div id="doenloadimage-1">
                         <img src="https://images.bewakoof.com/web/app_android_v1.png">
                     </div>
                     <div>
@@ -274,7 +273,7 @@ function footerpart() {
         </div>
 
     </div>
-    <!-- customer section end -->`
+    <!-- customer section end -->`;
 }
 
-export default footerpart
+export default footerpart;

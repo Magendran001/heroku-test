@@ -1,195 +1,210 @@
-*{
-    line-height: 12px;
+* {
+  line-height: 12px;
 }
 
-
 #footer-part {
-    line-height: 20px;
-    padding: 5% 0;
-    width: 100%;
-    height: auto;
-    background-color: black;
-    color: white;
-    font-family: "montserrat", sans-serif;
+  line-height: 20px;
+  padding: 5% 0;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  font-family: "montserrat", sans-serif;
 }
 
 #customer-section {
-    width: 75%;
-    margin: auto;
-
-
+  width: 75%;
+  margin: auto;
+  border: 1px solid red;
 }
 
-.customer-section-grid a{
-    color: white;
-    text-decoration: none;
+.customer-section-grid a {
+  color: white;
+  text-decoration: none;
 }
-#customer-section>h1{
-   color: #fdd835;
-    
-
+#customer-section > h1 {
+  color: #fdd835;
 }
 
 .customer-section-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 100%;
-    margin: auto;
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin: auto;
 }
 
-.customer-section-grid>div {
-    
+.customer-section-grid > div {
 }
 
 .customer-section-grid h4 {
-    color: #fdd835;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 400;
+  color: #fdd835;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
-.customer-section-grid h4+input {
-    border: none;
-    border-bottom: 1px solid yellow;
-    background-color: black;
-    height: 30px;
+.customer-section-grid h4 + input {
+  border: none;
+  border-bottom: 1px solid yellow;
+  background-color: black;
+  height: 30px;
 }
 
 .customer-section-grid .subscribe-button {
-
-    background-color: yellow;
-    border: none;
-    color: black;
-    height: 30px;
-    width: 100px;
+  background-color: yellow;
+  border: none;
+  color: black;
+  height: 30px;
+  width: 100px;
 }
 
-#customer-section-grid p ,.customer-section-grid p  {
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    font-family:  sans-serif;
+#customer-section-grid p,
+.customer-section-grid p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  font-family: sans-serif;
 }
 
 .last-color-section h4 {
-    color:
-        #b2e7ed
+  color: #b2e7ed;
 }
 
 #download-the-app-images {
-    display: flex;
-    width: 80%;
+  display: flex;
+  width: 80%;
 }
 
-#download-the-app-images>div {
-
-    flex: 1;
-    height: 30px;
-    margin: 2px;
-
+#download-the-app-images > div {
+  flex: 1;
+  height: 30px;
+  margin: 2px;
 }
 
-#download-the-app-images>div img {
-    width: 100%;
-    height: 100%;
+#download-the-app-images > div img {
+  width: 100%;
+  height: 100%;
 }
 
-#footer-last-section-para p,#footer-last-section-para h3{
+#footer-last-section-para p,
+#footer-last-section-para h3 {
+  font-family: "montserrat", sans-serif;
 
-    font-family: "montserrat", sans-serif;;
-
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-color: rgba(255, 255, 255, 0.9);
-
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.9);
 }
-#footer-last-section-para h3{
+#footer-last-section-para h3 {
+  font-family: "montserrat", sans-serif;
 
-    font-family: "montserrat", sans-serif;;
-
-    font-weight: 700;
-    font-size: 17px;
-  
-    
-    }
+  font-weight: 700;
+  font-size: 17px;
+}
 
 /* footer part media queries */
 
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  #customer-section .customer-section-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    margin: auto;
+  }
 
-@media screen and (min-width:0px) and (max-width:375px) {
+  #customer-section .last-color-section {
+    display: flex;
+  }
 
-    .customer-section-grid {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 100%;
-        margin: auto;
+  #customer-section .last-color-section h4 {
+    margin: 5px;
+  }
 
-    }
-
-    .last-color-section {
-        display: flex;
-
-
-    }
-
-    .last-color-section h4 {
-
-        margin: 5px;
-
-    }
-
-
-
-}
-
-@media screen and (min-width:375px) and (max-width:765px) {
-
-    .customer-section-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 100%;
-        margin: auto;
-
-    }
-
-
-
-}
-h1{
-    margin-bottom: 2%;
-}
-p{
+  #customer-section h1 {
+    display: none;
+  }
+  #customer-section h4 {
+    margin: 10px 10px;
+  }
+  p {
     line-height: 20px;
-    font-size: 16px;
+    font-size: 200px;
+    margin: 10px 0px;
     font-family: "montserrat", sans-serif;
-}
-h4{
+  }
+  #customer-section h4 {
     line-height: 20px;
+    border: 1px solid red;
+  }
+  #customer-section h4 + input {
+    margin: 10px 0px;
+    display: inline-block;
+    width: 150px;
+  }
+  #customer-section h4 + input + button {
+    margin: 10px 0px;
+    display: inline-block;
+  }
+  #customer-section #download-the-app-images {
+    border: 1px solid red;
+    width: 90%;
+
+    height: 50px;
+  }
+  #customer-section #download-the-app-images img {
+    border: 1px solid red;
+    width: 100%;
+    height: 40px;
+  }
+  #customer-section #doenloadimage-1 {
+    margin-right: 15px;
+  }
+  #customer-section-grid h3 a {
+    margin: 10px 40px;
+    color: yellow;
+  }
+  #footer-last-section-para {
+    display: none;
+  }
 }
-#customer-section hr{
-    /* border: 1px solid red;
+
+@media screen and (min-width: 400px) and (max-width: 765px) {
+  .customer-section-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    margin: auto;
+  }
+}
+h1 {
+  margin-bottom: 2%;
+}
+p {
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "montserrat", sans-serif;
+}
+h4 {
+  line-height: 20px;
+}
+#customer-section hr {
+  /* border: 1px solid red;
     background-color: blue; */
-    margin: 4% 0;
+  margin: 4% 0;
 }
-.last-color-section>h4{
-    line-height:20Px ;
-    /* border:2px solid rgb(74,172,143); */
-    padding:5px 0;
-    
+.last-color-section > h4 {
+  line-height: 20px;
+  /* border:2px solid rgb(74,172,143); */
+  padding: 5px 0;
 }
-.last-color-section>h4>a{
-    color:rgb(74,172,143);
-    font-weight: bold;
-
+.last-color-section > h4 > a {
+  color: rgb(74, 172, 143);
+  font-weight: bold;
 }
-#footer-last-section-para p{
-    /* border:2px solid white; */
-    line-height: 25px;
-    font-size: 18px;
-    margin:2% 0;
-
-
+#footer-last-section-para p {
+  /* border:2px solid white; */
+  line-height: 25px;
+  font-size: 18px;
+  margin: 2% 0;
 }

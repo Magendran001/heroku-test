@@ -9,7 +9,7 @@
   background-color: white;
 }
 #nav_bar_top {
-  border: 1px solid red;
+  border: 1px solid;
   width: 100%;
   display: flex;
   align-items: center;
@@ -33,7 +33,6 @@
   display: flex;
 }
 #nav_bar_search {
-  border: 3px solid red;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -60,7 +59,6 @@
 #nav_search_bar {
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 #nav_search_bar > li {
   list-style-type: none;
@@ -162,7 +160,6 @@ hr {
   width: 340px;
   position: fixed;
   background-color: white;
-  border: 1px solid red;
 }
 
 .top_category > li > a > img {
