@@ -4,11 +4,12 @@
 }
 #navbar {
   position: fixed;
-
+  border: 1px solid red;
   width: 100%;
   background-color: white;
 }
 #nav_bar_top {
+  border: 1px solid red;
   width: 100%;
   display: flex;
   align-items: center;
@@ -32,6 +33,7 @@
   display: flex;
 }
 #nav_bar_search {
+  border: 3px solid red;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -58,6 +60,7 @@
 #nav_search_bar {
   display: flex;
   align-items: center;
+  border: 1px solid red;
 }
 #nav_search_bar > li {
   list-style-type: none;
@@ -159,6 +162,7 @@ hr {
   width: 340px;
   position: fixed;
   background-color: white;
+  border: 1px solid red;
 }
 
 .top_category > li > a > img {
@@ -249,4 +253,24 @@ hr {
 
 #user-name-fill:hover div {
   display: block;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+  }
+  #nav_bar_top {
+    display: none;
+  }
+  #nav_search_bar_fetchData {
+    display: none;
+  }
+  #men-display {
+    display: none;
+  }
+  #accessories-display {
+    display: none;
+  }
+  #women-display {
+    display: none;
+  }
 }

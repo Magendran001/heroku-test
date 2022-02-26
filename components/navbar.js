@@ -19,7 +19,7 @@ function navbar() {
     <div id="logo_menu">
       
         <li><a href="./index.html"><img src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png" alt="logo"></a></li>
-        <li><a href="#">MEN</a>
+        <li id="men-display"><a href="#">MEN</a>
         <div id="logo_sub_menu1">
         <div id="sub_menu_item"><ul>
         <li><a href="#"><h5>TopWear</h5></a></li>
@@ -75,7 +75,7 @@ function navbar() {
          
     </div>
         </li>
-        <li><a href="#">WOMEN</a>
+        <li id="women-display"><a href="#">WOMEN</a>
             <div id="logo_sub_menu2">
                 <div id="sub_menu_item"><ul>
                 <li><a href="#"><h5>TopWear</h5></a></li>
@@ -127,7 +127,7 @@ function navbar() {
                </div>
               
             </div></li>
-        <li><a href="#">MOBILE COVER</a>
+        <li id="accessories-display"><a href="#">MOBILE COVER</a>
             <div id="logo_sub_menu3">
                 <div id="sub_menu_item"><ul>
                     <li><a href="#"><h2>POPULAR</h2></a></li>
