@@ -156,6 +156,7 @@ images: hover fade out
   #slider1,
   #slider2 {
     display: grid;
+    width: 70%;
   }
   #slider1_img3,
   #slider1_img2,
