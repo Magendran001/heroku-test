@@ -4,12 +4,11 @@
 }
 #navbar {
   position: fixed;
-  border: 1px solid red;
+
   width: 100%;
   background-color: white;
 }
 #nav_bar_top {
-  border: 1px solid;
   width: 100%;
   display: flex;
   align-items: center;
@@ -136,7 +135,6 @@ hr {
   width: 60%;
   margin-right: 30%;
   visibility: hidden;
-  border: 7px solid green;
 }
 #sub_menu_item > ul {
   list-style-type: none;
@@ -252,7 +250,7 @@ hr {
   display: block;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 0px) and (max-width: 400px) {
   body {
   }
   #nav_bar_top {
@@ -269,5 +267,23 @@ hr {
   }
   #women-display {
     display: none;
+  }
+  #logo_menu img {
+    display: none;
+  }
+  #nav_search_bar #search_product_by_name {
+    width: 150px;
+  }
+  #nav_search_bar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #nav_bar_search {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #nav_bar_manu {
+    display: flex;
+    justify-content: flex-start;
   }
 }
