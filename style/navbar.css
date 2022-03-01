@@ -250,9 +250,7 @@ hr {
   display: block;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 400px) {
-  body {
-  }
+@media only screen and (min-width: 0px) and (max-width: 375px) {
   #nav_bar_top {
     display: none;
   }
